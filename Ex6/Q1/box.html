@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="imp.js"></script>
+        <title>Document</title>
+<style>
+    div{
+    width:200px;
+    height:100px;
+    background-color:yellow;
+    border: 1px solid blue;
+    margin: auto;
+    }
+</style>
+</head>
+<body>
+    <div id="box" style="text-align: center;padding-top:50px;">Welcome</div><br><br>
+    Background Color : <input id="bgcolor" type="color" onchange="change()"><br><br>
+    Text color : <input id="tcolor" type="color" onchange="change()"><br><br>
+    Text size : <select id="tsize" onclick="change()">
+        <option>30</option>
+        <option>40</option>
+        <option>50</option>
+        <option>60</option>
+        <option>70</option>
+    </select><br><br>
+
+    Box Width : <input id="width" type="text" onkeyup="change()"><br><br>
+    Box Height : <input id="height" type="text" onkeyup="change()"><br><br>
+
+    <input id="opacity" type="range" onchange="change()"><br>
+    Opacity : <br>
+</body>
+</html>
